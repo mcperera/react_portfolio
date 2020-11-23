@@ -1,0 +1,42 @@
+.show-nav-button {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 20px;
+  border: 1px solid rgb(52, 50, 207);
+  border-left: none;
+  box-shadow: 3px 3px 5px 5px rgb(0, 0, 0);
+  z-index: 3;
+  transform: translate(0%, 0%);
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+.show-nav-button:hover {
+  cursor: pointer;
+  background-color: rgba(11, 10, 70, 0.8);
+  border: 1px solid rgba(11, 10, 70, 0.8);
+
+  -webkit-transition: background-color, border-color 0.5s ease;
+  -moz-transition: background-color, border-color 0.5s ease;
+  -o-transition: background-color, border-color 0.5s ease;
+  transition: background-color, border-color 0.5s ease;
+}
+
+.hide-nav-button {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 20px;
+  border: 1px solid rgb(52, 50, 207);
+  border-left: none;
+  box-shadow: 3px 3px 5px 5px rgb(0, 0, 0);
+  z-index: 3;
+  transform: translate(-125%, 0%);
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
