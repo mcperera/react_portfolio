@@ -5,24 +5,23 @@
   color: white;
   text-align: left;
   margin: 0 auto;
-  padding: 10%;
+  padding: 12% 10% 2% 10%;
   z-index: 1;
 }
 
 .header h1 {
-  font-size: 5em;
+  font-size: 4.1vw;
   margin: 15px 0px;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .header-says p {
-  font-size: 5em;
   margin: 0;
   font-family: "Nerko One", cursive;
 }
 
 .header p {
-  font-size: 1.4em;
+  font-size: 1.3vw;
 }
 
 .header-desc {
