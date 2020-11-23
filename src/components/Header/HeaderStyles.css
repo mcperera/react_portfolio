@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+.header {
+  color: white;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10%;
+  z-index: 1;
+}
+
+.header h1 {
+  font-size: 5em;
+  margin: 15px 0px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header-says p {
+  font-size: 5em;
+  margin: 0;
+  font-family: "Nerko One", cursive;
+}
+
+.header p {
+  font-size: 1.4em;
+}
+
+.header-desc {
+  padding-left: 10px;
+}

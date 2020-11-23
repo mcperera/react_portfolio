@@ -1,0 +1,16 @@
+.socialBox {
+  height: max-content;
+  width: max-content;
+  position: relative;
+  margin: 0px 6px;
+}
+
+svg {
+  height: 2em;
+  width: 2em;
+  fill: white;
+  padding: 5px;
+}
+svg:hover {
+  fill: rgb(121, 121, 121);
+}
