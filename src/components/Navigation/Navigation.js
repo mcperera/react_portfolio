@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import NavButton from "./NavButton";
+import NavButton from "./NavButton/NavButton";
+import NavItem from "./NavItems/NavItem";
 
 import "./Navigation.css";
 
@@ -17,6 +18,14 @@ const Navigation = () => {
       <NavButton navClick={handleClick} hideNavButton={showNav} />
       <div className={showNav ? `showNavigationBox` : `hideNavigationBox`}>
         <div className='close' onClick={handleClick}></div>
+        <div className='nav-items'>
+          <NavItem />
+          <NavItem />
+          <NavItem />
+          <NavItem />
+          <NavItem />
+          <NavItem />
+        </div>
       </div>
     </>
   );
