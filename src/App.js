@@ -8,8 +8,8 @@ import Navigation from "./components/Navigation/Navigation";
 function App() {
   return (
     <div className='App'>
-      <Navigation />
       <Warapper>
+        <Navigation />
         <Header />
       </Warapper>
     </div>

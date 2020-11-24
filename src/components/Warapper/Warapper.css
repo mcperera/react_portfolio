@@ -1,8 +1,8 @@
 .particles {
-  margin: 5px;
+  margin: 0px auto;
   position: absolute;
-  height: 95vh;
-  width: 96vw;
+  height: 99vh;
+  width: 99vw;
 }
 
 .warapper {

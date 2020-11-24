@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./HeaderStyles.css";
+import "./Header.css";
 
 import ContactMe from "./ContactMe";
 import SocialMedia from "../SocialMedia/SocialMedia";
