@@ -42,15 +42,17 @@ body {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+svg {
+  height: 2em;
+  width: 2em;
+  fill: white;
+  padding: 5px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  -webkit-transition: fill 0.5s ease;
+  -moz-transition: fill 0.5s ease;
+  -o-transition: fill 0.5s ease;
+  transition: fill 0.5s ease;
+}
+svg:hover {
+  fill: rgb(121, 120, 218);
 }
