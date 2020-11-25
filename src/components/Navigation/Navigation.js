@@ -37,13 +37,13 @@ const navItems = [
     id: 1,
     itemName: "Home",
     icon: homeSVG,
-    navLink: "/",
+    pathName: "/",
   },
   {
     id: 2,
     itemName: "About",
     icon: aboutSVG,
-    navLink: "/about",
+    pathName: "/about",
   },
 ];
 
@@ -56,7 +56,7 @@ const Navigation = () => {
   };
 
   const navItem = navItems.map((item) => {
-    return <NavItem key={item.id} navLink={item.navLink} icon={item.icon} />;
+    return <NavItem key={item.id} pathName={item.pathName} icon={item.icon} />;
   });
 
   return (

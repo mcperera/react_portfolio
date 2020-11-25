@@ -1,12 +1,23 @@
-.nav-item-box {
+.link {
+  text-decoration: none;
+}
+
+.nav-item {
   height: 45px;
   width: 45px;
-  margin: 20% auto;
+  margin: 30% auto;
   padding: 0;
   border-radius: 5%;
   box-sizing: border-box;
 }
 
-.link {
-  text-decoration: none;
+.active-nav-item {
+  height: 45px;
+  width: 45px;
+  margin: 30% auto;
+  padding: 0;
+  border-radius: 5%;
+  box-sizing: border-box;
+  border-right: solid 1px white;
+  transition: border-right 1s;
 }
