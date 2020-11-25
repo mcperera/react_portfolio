@@ -3,28 +3,10 @@
   width: 45px;
   margin: 20% auto;
   padding: 0;
-  border: 1px solid rgb(52, 50, 207);
   border-radius: 5%;
   box-sizing: border-box;
-
-  -webkit-transition: background-color 0.5s ease, border-color 0.5s;
-  -moz-transition: background-color 0.5s ease, border-color 0.5s;
-  -o-transition: background-color 0.5s ease, border-color 0.5s;
-  transition: background-color 0.5s, ease, border-color 0.5s;
-}
-
-.nav-item-box:hover {
-  cursor: pointer;
-  background-color: rgba(11, 10, 70, 0.8);
-  border: 1px solid rgba(11, 10, 70, 0.8);
-
-  -webkit-transition: background-color 0.5s ease, border-color 0.5s;
-  -moz-transition: background-color 0.5s ease, border-color 0.5s;
-  -o-transition: background-color 0.5s ease, border-color 0.5s;
-  transition: background-color 0.5s, ease, border-color 0.5s;
 }
 
 .link {
-  color: white;
   text-decoration: none;
 }

@@ -2,7 +2,7 @@
   height: max-content;
   width: 100px;
   display: block;
-  border: 1px solid rgb(52, 50, 207);
+  border: 1px solid white;
   margin: 40px 10px;
   padding: 10px 30px;
   text-decoration: none;
@@ -12,10 +12,10 @@
   box-shadow: none;
   position: relative;
 
-  -webkit-transition: background-color, border-color 0.5s ease;
-  -moz-transition: background-color, border-color 0.5s ease;
-  -o-transition: background-color, border-color 0.5s ease;
-  transition: background-color, border-color 0.5s ease;
+  -webkit-transition: background-color 0.5s, border-color 0.5s ease;
+  -moz-transition: background-color 0.5s, border-color 0.5s ease;
+  -o-transition: background-color 0.5s, border-color 0.5s ease;
+  transition: background-color 0.5s, border-color 0.5s ease;
 }
 
 .btn-container:hover {
