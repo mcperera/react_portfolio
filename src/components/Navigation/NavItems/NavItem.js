@@ -1,11 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./NavItem.css";
 
-const NavItem = ({ navLink, icon }) => {
+const NavItem = ({ pathName, icon }) => {
+  let location = useLocation();
+
   return (
-    <Link to={navLink} className='link'>
-      <div className='nav-item-box'>{icon}</div>
+    <Link to={pathName} className='link'>
+      <div
+        className={
+          pathName === location.pathname ? `active-nav-item` : `nav-item`
+        }
+      >
+        {icon}
+      </div>
     </Link>
   );
 };
