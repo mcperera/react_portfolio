@@ -1,9 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import "./NavItem.css";
 
-const NavItem = () => {
-  return <div className='nav-item-box'></div>;
+const NavItem = ({ navLink }) => {
+  return (
+    <Link to={navLink} className='link'>
+      <div className='nav-item-box'>*</div>
+    </Link>
+  );
 };
 
 export default NavItem;
