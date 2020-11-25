@@ -19,12 +19,8 @@ const Navigation = () => {
       <div className={showNav ? `showNavigationBox` : `hideNavigationBox`}>
         <div className='close' onClick={handleClick}></div>
         <div className='nav-items'>
-          <NavItem />
-          <NavItem />
-          <NavItem />
-          <NavItem />
-          <NavItem />
-          <NavItem />
+          <NavItem navLink={"/"} />
+          <NavItem navLink={"/about"} />
         </div>
       </div>
     </>
