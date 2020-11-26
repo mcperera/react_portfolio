@@ -19,6 +19,7 @@
   text-align: center;
   line-height: 38px;
   border: 1px solid rgb(27, 25, 117);
+  box-shadow: 0 0 5px rgb(0, 0, 0);
   border-radius: 50%;
   font-size: 15px;
   color: white;
@@ -43,5 +44,5 @@
 .social-links:hover {
   color: rgb(121, 120, 218);
   box-shadow: 0 0 5px rgb(121, 120, 218);
-  text-shadow: 0 0 5px rgb(121, 120, 218);
+  /* text-shadow: 0 0 5px rgb(121, 120, 218); */
 }
