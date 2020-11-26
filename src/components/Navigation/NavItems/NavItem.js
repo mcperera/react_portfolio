@@ -6,13 +6,12 @@ const NavItem = ({ pathName, icon }) => {
   let location = useLocation();
 
   return (
-    <Link to={pathName} className='link'>
-      <div
-        className={
-          pathName === location.pathname ? `active-nav-item` : `nav-item`
-        }
-      >
-        {icon}
+    <Link
+      to={pathName}
+      className={pathName === location.pathname ? `active-link ` : `link`}
+    >
+      <div className='nav-item'>
+        <i className={icon}></i>
       </div>
     </Link>
   );

@@ -9,7 +9,7 @@ import "./SocialMedia.css";
 
 const icons = [
   {
-    id: "2",
+    id: "1",
     name: "Linkedin",
     element: "fab fa-twitter fa-lg",
     url: "https://www.linkedin.com/in/wwmcperera",
@@ -21,13 +21,13 @@ const icons = [
     url: "https://www.linkedin.com/in/wwmcperera",
   },
   {
-    id: "1",
+    id: "3",
     name: "GitHub",
     element: "fab fa-github fa-lg",
     url: "https://github.com/mcperera",
   },
   {
-    id: "3",
+    id: "4",
     name: "Email",
     element: "fas fa-envelope fa-lg",
     url: "mailto:madushanperera3817@gmail.com",
@@ -38,7 +38,7 @@ const SocialMedia = () => {
   const links = icons.map((icon) => {
     return (
       <a key={icon.id} href={icon.url} className='social-links'>
-        <i class={icon.element}></i>
+        <i className={icon.element}></i>
       </a>
     );
   });
