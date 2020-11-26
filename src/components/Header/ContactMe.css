@@ -9,21 +9,31 @@
   border: 1px solid rgb(27, 25, 117);
   text-align: center;
   border-radius: 3px;
-  box-shadow: none;
   position: relative;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
 
-  -webkit-transition: background-color 0.5s, border-color 0.5s ease;
-  -moz-transition: background-color 0.5s, border-color 0.5s ease;
-  -o-transition: background-color 0.5s, border-color 0.5s ease;
-  transition: background-color 0.5s, border-color 0.5s ease;
+  -webkit-transition: background-color 0.5s, border-color 0.5s ease,
+    box-shadow 0.5s ease;
+  -moz-transition: background-color 0.5s, border-color 0.5s ease,
+    box-shadow 0.5s ease;
+  -o-transition: background-color 0.5s, border-color 0.5s ease,
+    box-shadow 0.5s ease;
+  transition: background-color 0.5s, border-color 0.5s ease,
+    box-shadow 0.5s ease;
 }
 
 .btn-container:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
   background-color: rgba(11, 10, 70, 0.8);
   border: 1px solid rgba(11, 10, 70, 0.8);
-  -webkit-transition: background-color 0.5s, border-color 0.5s ease;
-  -moz-transition: background-color 0.5s, border-color 0.5s ease;
-  -o-transition: background-color 0.5s, border-color 0.5s ease;
-  transition: background-color 0.5s, border-color 0.5s ease;
+  box-shadow: 0 0 5px rgb(121, 120, 218);
+
+  -webkit-transition: background-color 0.5s, box-shadow 0.5s ease,
+    text-shadow 0.5, border-color 0.5s ease;
+  -moz-transition: background-color 0.5s, box-shadow 0.5s ease,
+    border-color 0.5s ease;
+  -o-transition: background-color 0.5s, box-shadow 0.5s ease,
+    border-color 0.5s ease;
+  transition: background-color 0.5s, box-shadow 0.5s ease,
+    border-color 0.5s ease;
 }
