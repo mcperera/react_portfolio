@@ -5,7 +5,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className='skills-Box'>
-      <h1>Skills</h1>
+      <h1>Skills & Experience.</h1>
     </div>
   );
 };

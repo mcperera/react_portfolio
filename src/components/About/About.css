@@ -1,8 +1,10 @@
 .about-Box {
+  color: white;
+  text-align: left;
+  margin: 0 auto;
+  padding: 5% 10% 2% 12%;
   text-align: center;
-  margin: 0;
-  padding: 0;
-
+  z-index: 1;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -49,4 +51,25 @@
   to {
     opacity: 1;
   }
+}
+
+.text-content p {
+  margin: 15px;
+  padding: 5px;
+}
+
+.img-box {
+  height: max-content;
+  width: max-content;
+  margin: 50px auto 0px auto;
+  padding: 45px;
+
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(73, 70, 114);
+}
+
+.img-box img {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
 }

@@ -1,8 +1,9 @@
 .skills-Box {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-
+  color: white;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10% 10% 2% 12%;
+  z-index: 1;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
