@@ -1,35 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+.skills-Box {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 
-.header {
-  color: white;
-  text-align: left;
-  margin: 0 auto;
-  padding: 10% 10% 2% 12%;
-  z-index: 1;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
 }
 
-.header h1 {
-  font-size: 4.1vw;
-  margin: 15px 0px;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.header-says p {
+.skills-Box h1 {
   margin: 0;
-  font-family: "Nerko One", cursive;
-}
-
-.header p {
-  font-size: 1.3vw;
-}
-
-.header-desc {
-  padding-left: 10px;
+  padding: 0;
+  color: white;
 }
 
 @keyframes fadein {

@@ -6,6 +6,7 @@ import Warapper from "./components/Warapper/Warapper";
 import Navigation from "./components/Navigation/Navigation";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Header} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/skills' component={Skills} />
           </Switch>
         </Warapper>
       </div>

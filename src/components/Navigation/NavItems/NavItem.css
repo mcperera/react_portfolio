@@ -1,23 +1,36 @@
 .link {
+  margin: 20% 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
   text-decoration: none;
+  text-align: center;
+  border-right: solid 1px rgba(255, 255, 255, 0);
 }
 
 .nav-item {
   height: 45px;
   width: 45px;
-  margin: 30% auto;
-  padding: 0;
-  border-radius: 5%;
-  box-sizing: border-box;
+  margin: 0 auto;
+  color: white;
+  font-size: 28px;
+  transition: 0.5s;
 }
 
-.active-nav-item {
-  height: 45px;
-  width: 45px;
-  margin: 30% auto;
+.nav-item:hover {
+  cursor: pointer;
+  width: 60px;
+  color: rgb(121, 120, 218);
+  text-shadow: 0 0 5px rgb(121, 120, 218);
+}
+
+.active-link {
+  margin: 20% 0;
   padding: 0;
-  border-radius: 5%;
-  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
   border-right: solid 1px white;
   transition: border-right 1s;
 }

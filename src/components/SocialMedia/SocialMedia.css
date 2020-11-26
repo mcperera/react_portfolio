@@ -2,7 +2,7 @@
   height: max-content;
   width: max-content;
   position: relative;
-  margin: 0px 6px;
+  margin: 0;
 }
 
 /* 
@@ -12,13 +12,13 @@
   line-height: 43px; */
 
 .social-links {
-  margin: 0px 10px;
+  margin: 0px 5px;
   display: inline-block;
   width: 35px;
   height: 35px;
   text-align: center;
-  line-height: 39px;
-  background: #333;
+  line-height: 38px;
+  border: 1px solid rgb(27, 25, 117);
   border-radius: 50%;
   font-size: 15px;
   color: white;
@@ -28,10 +28,6 @@
 .social-links::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   border-radius: 50%;
   background: rgb(121, 120, 218);
   transition: 0.5s;
