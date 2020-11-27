@@ -3,7 +3,7 @@
 
 .header {
   color: white;
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
   padding: 10% 10% 2% 12%;
   z-index: 1;
@@ -17,19 +17,6 @@
   font-size: 4.1vw;
   margin: 15px 0px;
   font-family: "Josefin Sans", sans-serif;
-}
-
-.header-says p {
-  margin: 0;
-  font-family: "Nerko One", cursive;
-}
-
-.header p {
-  font-size: 1.3vw;
-}
-
-.header-desc {
-  padding-left: 10px;
 }
 
 @keyframes fadein {
@@ -66,6 +53,27 @@
   to {
     opacity: 1;
   }
+}
+
+.header-says p {
+  margin: 0;
+  font-family: "Nerko One", cursive;
+}
+
+.header p {
+  font-size: 1.3vw;
+}
+
+.header-desc {
+  padding-left: 10px;
+}
+
+.contact {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,13 +126,5 @@
 
   .header-desc {
     padding-left: 10px;
-  }
-
-  .contact {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 }

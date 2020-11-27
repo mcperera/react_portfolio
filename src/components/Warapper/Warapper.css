@@ -1,13 +1,14 @@
-.particles {
-  margin: 0px auto;
-  position: absolute;
+.warapper {
+  position: relative;
+  margin: 0;
+  padding: 0;
   height: 99vh;
   width: 99vw;
 }
 
-.warapper {
-  margin: 0;
-  padding: 0;
+.particles {
+  margin: 0px auto;
+  position: absolute;
   height: 99vh;
   width: 99vw;
 }
