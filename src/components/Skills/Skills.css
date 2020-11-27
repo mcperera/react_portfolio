@@ -10,13 +10,6 @@
   -o-animation: fadein 2s; /* Opera */
 }
 
-.skills-Box h1 {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-size: clamp(35px, 5vw, 3vw);
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -53,8 +46,22 @@
   }
 }
 
+.skills-Box h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: clamp(35px, 5vw, 3vw);
+}
+
+.skills-Box p {
+  margin: 15px;
+  padding: 5px;
+  font-size: clamp(15px, 1.3vw, 3vw);
+}
+
 .flex-wrapper {
-  margin-top: 10%;
+  margin-top: 5%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -68,13 +75,13 @@
 .circular-chart {
   display: block;
   margin: 10px auto;
-  max-width: 50%;
+  max-width: 40%;
   max-height: 250px;
 }
 
 .circle-bg {
   fill: none;
-  stroke: rgba(238, 238, 238, 0.089);
+  stroke: rgba(122, 120, 218, 0.15);
   stroke-width: 3.8;
 }
 
@@ -92,15 +99,15 @@
 }
 
 .circular-chart.orange .circle {
-  stroke: #ff9f00;
+  stroke: rgb(93, 91, 255);
 }
 
 .circular-chart.green .circle {
-  stroke: #4cc790;
+  stroke: rgb(93, 91, 255);
 }
 
 .circular-chart.blue .circle {
-  stroke: #3c9ee5;
+  stroke: rgb(93, 91, 255);
 }
 
 .percentage {

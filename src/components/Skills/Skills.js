@@ -13,6 +13,12 @@ const Skills = () => {
         expedita dignissimos animi nulla eligendi pariatur rem quasi dolorem,
         temporibus qui corporis!
       </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolores
+        voluptates consequuntur saepe vitae repellendus velit tempora nobis
+        expedita dignissimos animi nulla eligendi pariatur rem quasi dolorem,
+        temporibus qui corporis!
+      </p>
       <div className='flex-wrapper'>
         <div className='single-chart'>
           <svg viewBox='0 0 36 36' className='circular-chart green'>
@@ -24,15 +30,16 @@ const Skills = () => {
             />
             <path
               className='circle'
-              strokeDasharray='30, 100'
+              strokeDasharray='87, 100'
               d='M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831'
             />
             <text x='18' y='20.35' className='percentage'>
-              30%
+              87%
             </text>
           </svg>
+          <p>HTML / ( S )CSS</p>
         </div>
         <div className='single-chart'>
           <svg viewBox='0 0 36 36' className='circular-chart blue'>
@@ -44,15 +51,16 @@ const Skills = () => {
             />
             <path
               className='circle'
-              strokeDasharray='75, 100'
+              strokeDasharray='70, 100'
               d='M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831'
             />
             <text x='18' y='20.35' className='percentage'>
-              75%
+              70%
             </text>
           </svg>
+          <p>Javascript</p>
         </div>
         <div className='single-chart'>
           <svg viewBox='0 0 36 36' className='circular-chart orange'>
@@ -64,15 +72,37 @@ const Skills = () => {
             />
             <path
               className='circle'
-              strokeDasharray='90, 100'
+              strokeDasharray='67, 100'
               d='M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831'
             />
             <text x='18' y='20.35' className='percentage'>
-              90%
+              67%
             </text>
           </svg>
+          <p>React JS ( MERN )</p>
+        </div>
+        <div className='single-chart'>
+          <svg viewBox='0 0 36 36' className='circular-chart orange'>
+            <path
+              className='circle-bg'
+              d='M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831'
+            />
+            <path
+              className='circle'
+              strokeDasharray='43, 100'
+              d='M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831'
+            />
+            <text x='18' y='20.35' className='percentage'>
+              43%
+            </text>
+          </svg>
+          <p>Flutter</p>
         </div>
       </div>
     </div>

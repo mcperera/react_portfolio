@@ -11,13 +11,13 @@
   z-index: 10;
   transform: translate(0%, 0%);
   -webkit-transition: transform 0.5s ease, background-color 0.5s width 0.5s ease,
-    border-color 0.5s, box-shadow 0.5s ease, padding-left 500ms ease;
+    border-color 0.5s, box-shadow 0.7s ease, padding-left 500ms ease;
   -moz-transition: transform 0.5s ease, background-color 0.5s width 0.5s ease,
-    border-color 0.5s, box-shadow 0.5s ease, padding-left 500ms ease;
+    border-color 0.5s, box-shadow 0.7s ease, padding-left 500ms ease;
   -o-transition: transform 0.5s ease, background-color 0.5s width 0.5s ease,
-    border-color 0.5s, box-shadow 0.5s ease, padding-left 500ms ease;
+    border-color 0.5s, box-shadow 0.7s ease, padding-left 500ms ease;
   transition: transform 0.5s ease, background-color 0.5s, width 0.5s ease,
-    border-color 0.5s, box-shadow 0.5s ease, padding-left 200ms ease;
+    border-color 0.5s, box-shadow 0.7s ease, padding-left 200ms ease;
 }
 
 .show-nav-button:hover {
@@ -29,13 +29,13 @@
   border-left: none;
   box-shadow: 0 0 3px rgb(121, 120, 218);
   -webkit-transition: background-color 0.5s width 0.5s ease, border-color 0.5s,
-    padding-left 500ms ease, box-shadow 0.5s ease;
+    padding-left 500ms ease, box-shadow 0.7s ease;
   -moz-transition: background-color 0.5s width 0.5s ease, border-color 0.5s,
-    padding-left 500ms ease, box-shadow 0.5s ease;
+    padding-left 500ms ease, box-shadow 0.7s ease;
   -o-transition: background-color 0.5s width 0.5s ease, border-color 0.5s,
-    padding-left 500ms ease, box-shadow 0.5s ease;
+    padding-left 500ms ease, box-shadow 0.7s ease;
   transition: background-color 0.5s, width 0.3s ease, border-color 0.5s,
-    padding-left 200ms ease, box-shadow 0.5s ease;
+    padding-left 200ms ease, box-shadow 0.7s ease;
 }
 
 .hide-nav-button {
