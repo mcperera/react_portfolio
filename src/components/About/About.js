@@ -5,18 +5,26 @@ import "./About.css";
 const About = () => {
   return (
     <div className='about-Box'>
-      <h1>About Me</h1>
+      <h1>About Me.</h1>
       <div className='text-content'>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum qui
-          minima dignissimos asperiores tenetur eum distinctio nobis! Inventore
-          distinctio atque quas nobis, reiciendis rem blanditiis eveniet. Harum
-          porro corrupti mollitia.
+          Hello! I'm Madushan, a software engineer based in Colombo, Sri Lanka.
+          <br />I enjoy creating things that live on the internet, whether that
+          be websites, mobile applications, or anything in between. My goal is
+          to always build products that provide pixel-perfect, performant
+          experiences.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus illo modi ipsa numquam, voluptas ipsam porro alias quod
-          dolor nesciunt quisquam.
+          Shortly after graduating from{" "}
+          <a href='https://www.cardiffmet.ac.uk/' target='_blank'>
+            Cardiff Metropolitan University
+          </a>
+          , I joined the engineering team at{" "}
+          <a href='https://www.ifs.com/' target='_blank'>
+            IFS R&D International (PVT) Ltd
+          </a>
+          , where I work on a wide variety of interesting and meaningful
+          projects on a daily basis.
         </p>
       </div>
       <div className='img-box'>

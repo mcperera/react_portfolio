@@ -4,8 +4,8 @@
   position: absolute;
   top: 20px;
   border: 1px solid rgb(27, 25, 117);
+  box-shadow: 0px 0px 11px 10px rgb(0, 0, 0);
   border-left: none;
-  text-shadow: 0 0 5px rgb(121, 120, 218);
   border-radius: 5%;
   z-index: 10;
   transform: translate(0%, 0%);
@@ -26,15 +26,14 @@
   background-color: rgba(11, 10, 70, 0.8);
   border: 1px solid rgba(11, 10, 70, 0.8);
   border-left: none;
-  box-shadow: 0 0 5px rgb(121, 120, 218);
   -webkit-transition: background-color 0.5s width 0.5s ease, border-color 0.5s,
-    box-shadow 0.5s ease, padding-left 500ms ease;
+    padding-left 500ms ease;
   -moz-transition: background-color 0.5s width 0.5s ease, border-color 0.5s,
-    box-shadow 0.5s ease, padding-left 500ms ease;
+    padding-left 500ms ease;
   -o-transition: background-color 0.5s width 0.5s ease, border-color 0.5s,
-    box-shadow 0.5s ease, padding-left 500ms ease;
+    padding-left 500ms ease;
   transition: background-color 0.5s, width 0.3s ease, border-color 0.5s,
-    box-shadow 0.5s ease, padding-left 200ms ease;
+    padding-left 200ms ease;
 }
 
 .hide-nav-button {

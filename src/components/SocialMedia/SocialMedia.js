@@ -37,7 +37,7 @@ const icons = [
 const SocialMedia = () => {
   const links = icons.map((icon) => {
     return (
-      <a key={icon.id} href={icon.url} className='social-links'>
+      <a key={icon.id} href={icon.url} className='social-links' target='_blank'>
         <i className={icon.element}></i>
       </a>
     );
