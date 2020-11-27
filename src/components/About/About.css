@@ -10,13 +10,6 @@
   -o-animation: fadein 2s; /* Opera */
 }
 
-.about-Box h1 {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-size: clamp(35px, 5vw, 3vw);
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -53,6 +46,18 @@
   }
 }
 
+.about-warapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-Box h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: clamp(35px, 5vw, 3vw);
+}
+
 .text-content p {
   margin: 15px;
   padding: 5px;
@@ -71,7 +76,7 @@
   height: max-content;
   width: max-content;
   margin: 50px auto 0px auto;
-  padding: 45px;
+  padding: 25px;
 
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgb(73, 70, 114);
@@ -98,7 +103,7 @@
 
   .img-box {
     margin: 35px auto 0px auto;
-    padding: 35px;
+    padding: 25px;
   }
 
   .img-box img {

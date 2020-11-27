@@ -8,22 +8,6 @@
   border-right: solid 1px rgba(255, 255, 255, 0);
 }
 
-.nav-item {
-  height: 45px;
-  width: 45px;
-  margin: 0 auto;
-  color: white;
-  font-size: 27px;
-  transition: 0.5s;
-}
-
-.nav-item:hover {
-  cursor: pointer;
-  width: 60px;
-  color: rgb(121, 120, 218);
-  text-shadow: 0 0 5px rgb(121, 120, 218);
-}
-
 .active-link {
   margin: 20% 0;
   padding: 0;
@@ -33,4 +17,20 @@
   text-align: center;
   border-right: solid 1px white;
   transition: border-right 1s;
+}
+
+.nav-item {
+  height: 45px;
+  width: 45px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  transition: 0.5s;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: rgb(121, 120, 218);
+  text-shadow: 0 0 5px rgb(121, 120, 218);
 }

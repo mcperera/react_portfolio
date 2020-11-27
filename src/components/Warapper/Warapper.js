@@ -32,7 +32,7 @@ export default function Warappe({ children }) {
               move: {
                 random: true,
                 speed: 1,
-                direction: "top",
+                direction: "bottom",
                 out_mode: "out",
               },
             },
