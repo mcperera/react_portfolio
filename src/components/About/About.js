@@ -16,11 +16,19 @@ const About = () => {
         </p>
         <p>
           Shortly after graduating from{" "}
-          <a href='https://www.cardiffmet.ac.uk/' target='_blank'>
+          <a
+            href='https://www.cardiffmet.ac.uk/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Cardiff Metropolitan University
           </a>
           , I joined the engineering team at{" "}
-          <a href='https://www.ifs.com/' target='_blank'>
+          <a
+            href='https://www.ifs.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             IFS R&D International (PVT) Ltd
           </a>
           , where I work on a wide variety of interesting and meaningful
