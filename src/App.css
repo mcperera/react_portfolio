@@ -42,7 +42,7 @@ body {
   color: white;
 }
 
-svg {
+/* svg {
   height: 2em;
   width: 2em;
   fill: white;
@@ -55,4 +55,4 @@ svg {
 }
 svg:hover {
   fill: rgb(121, 120, 218);
-}
+} */
