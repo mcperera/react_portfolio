@@ -1,8 +1,7 @@
 .about-Box {
   color: white;
-  text-align: left;
   margin: 0 auto;
-  padding: 5% 10% 2% 12%;
+  padding: 4% 10% 1% 10%;
   text-align: center;
   z-index: 1;
   animation: fadein 2s;
@@ -15,6 +14,7 @@
   margin: 0;
   padding: 0;
   color: white;
+  font-size: clamp(35px, 5vw, 3vw);
 }
 
 @keyframes fadein {
@@ -56,6 +56,15 @@
 .text-content p {
   margin: 15px;
   padding: 5px;
+  font-size: clamp(15px, 1.3vw, 3vw);
+}
+
+.text-content a {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  text-decoration: none;
+  color: rgb(211, 213, 255);
 }
 
 .img-box {
@@ -72,4 +81,32 @@
   width: 200px;
   border-radius: 5px;
   box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  .about-Box {
+    margin: 0 auto;
+    padding: 10% 10% 2% 10%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about-Box {
+    margin: 0 auto;
+    padding: 15% 10% 2% 12%;
+  }
+
+  .img-box {
+    margin: 35px auto 0px auto;
+    padding: 35px;
+  }
+
+  .img-box img {
+    width: 180px;
+  }
+
+  .text-content p {
+    margin: 15px 10px;
+    padding: 5px 0px;
+  }
 }
