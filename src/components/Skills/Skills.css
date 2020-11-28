@@ -46,8 +46,8 @@
   }
 }
 
-.skills-Box h1 {
-  margin: 0;
+.page-heading {
+  margin: 0px 5px;
   padding: 0;
   color: white;
   font-family: "Josefin Sans", sans-serif;
@@ -61,60 +61,10 @@
 }
 
 .flex-wrapper {
-  margin-top: 5%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-}
-
-.single-chart {
-  width: 30%;
-  justify-content: space-around;
-}
-
-.circular-chart {
-  display: block;
-  margin: 10px auto;
-  max-width: 40%;
-  max-height: 250px;
-}
-
-.circle-bg {
-  fill: none;
-  stroke: rgba(122, 120, 218, 0.15);
-  stroke-width: 3.8;
-}
-
-.circle {
-  fill: none;
-  stroke-width: 2.3;
-  stroke-linecap: round;
-  animation: progress 1s ease-out forwards;
-}
-
-@keyframes progress {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-}
-
-.circular-chart.orange .circle {
-  stroke: rgb(93, 91, 255);
-}
-
-.circular-chart.green .circle {
-  stroke: rgb(93, 91, 255);
-}
-
-.circular-chart.blue .circle {
-  stroke: rgb(93, 91, 255);
-}
-
-.percentage {
-  fill: rgb(255, 255, 255);
-  font-family: sans-serif;
-  font-size: 0.5em;
-  text-anchor: middle;
+  padding: 10px auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -125,20 +75,17 @@
 }
 
 @media only screen and (max-width: 450px) {
+  /*----scroll child without parent----*/
   .skills-Box {
-    margin: 0 auto;
+    position: relative;
+    max-height: 100%;
     padding: 10% 10% 2% 12%;
+    overflow: auto;
   }
 
   .flex-wrapper {
-    margin-top: 10%;
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+    flex-flow: row wrap;
     justify-content: center;
-  }
-
-  .circular-chart {
-    max-width: 80%;
   }
 }
