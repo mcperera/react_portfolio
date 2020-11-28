@@ -47,7 +47,7 @@
 }
 
 .page-heading {
-  margin: 0px 5px;
+  margin: 0px 10px;
   padding: 0;
   color: white;
   font-family: "Josefin Sans", sans-serif;
@@ -69,8 +69,16 @@
 
 @media only screen and (max-width: 600px) {
   .skills-Box {
-    margin: 0 auto;
-    padding: 10% 10% 2% 12%;
+    position: relative;
+    max-height: 100%;
+    padding: 10% 10% 2% 10%;
+    overflow: auto;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }
 }
 

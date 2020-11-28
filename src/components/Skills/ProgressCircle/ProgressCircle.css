@@ -39,10 +39,21 @@
   font-size: 0.5em;
   text-anchor: middle;
 }
+@media only screen and (max-width: 600px) {
+  .single-chart {
+    margin: 0px auto;
+    width: 40%;
+    justify-content: space-around;
+  }
+
+  .circular-chart {
+    max-width: 80%;
+  }
+}
 
 @media only screen and (max-width: 450px) {
   .single-chart {
-    margin: 0px 15px;
+    margin: 0px auto;
     width: 40%;
     justify-content: space-around;
   }
