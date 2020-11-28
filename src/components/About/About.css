@@ -1,7 +1,7 @@
 .about-Box {
   color: white;
   margin: 0 auto;
-  padding: 4% 10% 1% 10%;
+  padding: 7% 10% 1% 10%;
   text-align: center;
   z-index: 1;
   animation: fadein 2s;
@@ -76,17 +76,35 @@
 .img-box {
   height: max-content;
   width: max-content;
-  margin: 50px auto 0px auto;
+  margin: 3.5% auto 0px auto;
   padding: 25px;
 
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgb(73, 70, 114);
+  box-shadow: 0px 0px 200px rgb(73, 70, 114);
+
+  -webkit-transition: box-shadow 0.7s ease;
+  -moz-transition: box-shadow 0.7s ease;
+  -o-transition: box-shadow 0.7s ease;
+  transition: box-shadow 0.7s ease;
+}
+
+.img-box:hover {
+  box-shadow: 0 0 3px rgb(121, 120, 218);
+  -webkit-transition: box-shadow 0.7s ease;
+  -moz-transition: box-shadow 0.7s ease;
+  -o-transition: box-shadow 0.7s ease;
+  transition: box-shadow 0.7s ease;
 }
 
 .img-box img {
+  position: relative;
   width: 200px;
   border-radius: 5px;
   box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.img-box:hover {
+  box-shadow: 0 0 3px rgb(121, 120, 218);
 }
 
 @media only screen and (max-width: 600px) {

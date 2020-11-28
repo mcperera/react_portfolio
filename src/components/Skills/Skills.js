@@ -1,6 +1,7 @@
 import React from "react";
 
 import ProgressCircle from "./ProgressCircle/ProgressCircle";
+import ListSkills from "./ListSkills/ListSkills";
 
 import "./Skills.css";
 
@@ -27,9 +28,46 @@ const skillLevels = [
   },
 ];
 
+const listOfSkills = [
+  {
+    id: "5",
+    skillName: "Node JS",
+    percentage: "56",
+  },
+  {
+    id: "4",
+    skillName: "React Native",
+    percentage: "56",
+  },
+  {
+    id: "6",
+    skillName: "C#",
+    percentage: "56",
+  },
+  {
+    id: "7",
+    skillName: "C++",
+    percentage: "56",
+  },
+  {
+    id: "8",
+    skillName: "SQL / PLSQL",
+    percentage: "56",
+  },
+  {
+    id: "8",
+    skillName: "Socket io",
+    percentage: "56",
+  },
+];
+
 const Skills = () => {
-  const skills = skillLevels.map((skill) => {
+  const skillsProgress = skillLevels.map((skill) => {
     return <ProgressCircle key={skill.id} {...skill} />;
+  });
+
+  const listSkills = listOfSkills.map((skill) => {
+    return <ListSkills key={skill.id} {...skill} />;
   });
 
   return (
@@ -37,22 +75,17 @@ const Skills = () => {
       <div className='scrollable'>
         <h1 className='page-heading'>Skills & Experience.</h1>
         <p>
-          Here are a few technologies I love to work with and I've been working
-          with recently.
+          Here are a few technologies which I love to work with and I've been
+          working with recently.
         </p>
-        <div className='flex-wrapper'>{skills}</div>
+        <div className='flex-wrapper'>{skillsProgress}</div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-          dolores voluptates consequuntur saepe vitae repellendus velit tempora
-          nobis expedita dignissimos animi nulla eligendi pariatur rem quasi
-          dolorem, temporibus qui corporis!
+          Apart form that, I have experience with below languages and
+          technologies as well.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-          dolores voluptates consequuntur saepe vitae repellendus velit tempora
-          nobis expedita dignissimos animi nulla eligendi pariatur rem quasi
-          dolorem, temporibus qui corporis!
-        </p>
+        <div className='skills-container'>
+          <ul className='listSkills'>{listSkills}</ul>
+        </div>
       </div>
     </div>
   );

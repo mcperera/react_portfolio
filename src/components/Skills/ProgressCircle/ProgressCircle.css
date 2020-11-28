@@ -3,6 +3,10 @@
   justify-content: space-around;
 }
 
+.single-chart p {
+  padding: 2px !important;
+}
+
 .circular-chart {
   display: block;
   margin: 10px auto;

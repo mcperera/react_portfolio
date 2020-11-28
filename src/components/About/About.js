@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import "./About.css";
 // import profilePic from "../../assets/profilePicture/Me.jpg";
+const url = "https://api.github.com/users/mcperera";
 
 const About = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [getImg, setImg] = useState("");
+
+  const getGitImg = async (imgUrl) => {
+    const res = await fetch(imgUrl);
+    const user = await res.json();
+    setImg(user.avatar_url);
+    setIsLoading(false);
+  };
+
+  useEffect(() => {
+    getGitImg(url);
+  }, []);
+
+  const Loading = () => <p>Loading...</p>;
+
   return (
     <div className='about-Box'>
       <div className='about-warapper'>
@@ -39,10 +56,7 @@ const About = () => {
           </p>
         </div>
         <div className='img-box'>
-          <img
-            src='https://avatars2.githubusercontent.com/u/39242742?s=460&u=c2841893892e337d4ded2d6cc570cede8f006f6e&v=4'
-            alt='Madushan-Perera'
-          />
+          {isLoading ? <Loading /> : <img src={getImg} alt='Madushan-Perera' />}
         </div>
       </div>
     </div>
