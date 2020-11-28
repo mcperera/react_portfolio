@@ -6,18 +6,22 @@ import "./Skills.css";
 
 const skillLevels = [
   {
+    id: "1",
     skillName: "Javascript (ES6+)",
     percentage: "73",
   },
   {
+    id: "2",
     skillName: "HTML5 / (S)CSS",
     percentage: "87",
   },
   {
+    id: "3",
     skillName: "React JS (MERN Stack)",
     percentage: "68",
   },
   {
+    id: "4",
     skillName: "Flutter",
     percentage: "56",
   },
@@ -25,7 +29,7 @@ const skillLevels = [
 
 const Skills = () => {
   const skills = skillLevels.map((skill) => {
-    return <ProgressCircle {...skill} />;
+    return <ProgressCircle key={skill.id} {...skill} />;
   });
 
   return (
