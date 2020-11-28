@@ -1,0 +1,15 @@
+.skill {
+  list-style-type: square;
+  margin: 10px;
+  width: 20%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 450px) {
+  .skill {
+    list-style-type: square;
+    margin: 10px;
+    width: 30%;
+    text-align: left;
+  }
+}

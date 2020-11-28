@@ -10,9 +10,9 @@ import "./SocialMedia.css";
 const icons = [
   {
     id: "1",
-    name: "Linkedin",
+    name: "Twitter",
     element: "fab fa-twitter fa-lg",
-    url: "https://www.linkedin.com/in/wwmcperera",
+    url: "https://twitter.com/PereraMadushan",
   },
   {
     id: "2",

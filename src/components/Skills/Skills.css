@@ -1,7 +1,7 @@
 .skills-Box {
   color: white;
   margin: 0 auto;
-  padding: 4% 10% 1% 10%;
+  padding: 7% 10% 1% 10%;
   text-align: center;
   z-index: 1;
   animation: fadein 2s;
@@ -56,7 +56,7 @@
 
 .skills-Box p {
   margin: 15px;
-  padding: 5px;
+  padding: 2vh 0;
   font-size: clamp(15px, 1.3vw, 3vw);
 }
 
@@ -65,6 +65,21 @@
   flex-flow: row nowrap;
   justify-content: center;
   padding: 10px auto;
+}
+
+.skills-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 15%;
+}
+
+.listSkills {
+  margin: 0 auto;
+  padding-left: 10%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -95,5 +110,19 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+  }
+
+  .skills-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .listSkills {
+    margin: 0;
+    padding-left: 5%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
   }
 }
