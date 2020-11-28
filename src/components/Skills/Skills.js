@@ -33,8 +33,8 @@ const Skills = () => {
       <div className='scrollable'>
         <h1 className='page-heading'>Skills & Experience.</h1>
         <p>
-          Here are a few technologies which are I love to work with and I've
-          been working with recently.
+          Here are a few technologies I love to work with and I've been working
+          with recently.
         </p>
         <div className='flex-wrapper'>{skills}</div>
         <p>
