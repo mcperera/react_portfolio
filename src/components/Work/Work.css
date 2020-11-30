@@ -1,0 +1,25 @@
+.work-box {
+  color: white;
+  margin: auto;
+  padding: 7% 10% 1% 10%;
+  text-align: center;
+  z-index: 1;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+.work-Box h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: clamp(35px, 5vw, 3vw);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.text-content p {
+  margin: 15px;
+  padding: 5px;
+  font-size: clamp(15px, 1.3vw, 3vw);
+}

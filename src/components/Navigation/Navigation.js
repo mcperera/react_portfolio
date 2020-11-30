@@ -24,6 +24,12 @@ const navItems = [
     icon: "fas fa-file-code",
     pathName: "/skills",
   },
+  {
+    id: 3,
+    itemName: "Work",
+    icon: "fas fa-images",
+    pathName: "/work",
+  },
 ];
 
 const Navigation = () => {
