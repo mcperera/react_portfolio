@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Work.css";
-import soon from "../../assets/toosoon.png";
 
 const Work = () => (
   <div className='work-box'>
