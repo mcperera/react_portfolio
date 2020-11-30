@@ -1,25 +1,20 @@
 {
-  "short_name": "Madushan Perera",
   "name": "Madushan Perera Portfolio",
+  "short_name": "Madushan Perera",
   "icons": [
     {
-      "src": "../src/assets/logo/m64.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    } 
-    {
-      "src": "../src/assets/logo/m123.png",
+      "src": "./m512.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/assets/logo/m512.png",
+      "src": "./m512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": "/",
+  "display": "minimal-ui",
+  "theme_color": "#000",
+  "background_color": "#000"
 }
