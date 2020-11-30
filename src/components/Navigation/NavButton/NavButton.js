@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./NavButton.css";
-import logo from "../../../assets/logo/m24.png";
+import logo from "../../../assets/logo/m512.png";
 
 const NavButton = ({ navClick, hideNavButton }) => {
   return (
