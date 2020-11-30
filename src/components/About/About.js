@@ -24,7 +24,7 @@ const About = () => {
   return (
     <div className='about-Box'>
       <div className='about-warapper'>
-        <h1>About Me.</h1>
+        <h1 className='page-heading'>About Me.</h1>
         <div className='text-content'>
           <p>
             Hello! I'm Madushan, a software engineer based in Colombo, Sri

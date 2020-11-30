@@ -46,14 +46,6 @@
   }
 }
 
-.page-heading {
-  margin: 0px 10px;
-  padding: 0;
-  color: white;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: clamp(35px, 5vw, 3vw);
-}
-
 .skills-Box p {
   margin: 15px;
   padding: 2vh 0;
@@ -80,6 +72,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  font-size: clamp(15px, 1.3vw, 3vw);
 }
 
 @media only screen and (max-width: 600px) {

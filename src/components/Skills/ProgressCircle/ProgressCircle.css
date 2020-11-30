@@ -5,6 +5,7 @@
 
 .single-chart p {
   padding: 2px !important;
+  font-size: clamp(15px, 1.3vw, 3vw);
 }
 
 .circular-chart {
