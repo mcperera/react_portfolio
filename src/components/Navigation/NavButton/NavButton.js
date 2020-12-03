@@ -28,7 +28,7 @@ const NavButton = ({ handleClick, hideNavButton }) => {
       {showLogo ? (
         <img src={logo} alt="M-logo" className="logo" />
       ) : (
-        <i className="fas fa-bars"></i>
+        <i className="fas fa-bars ham-icon"></i>
       )}
     </div>
   );
