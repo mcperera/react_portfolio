@@ -25,7 +25,7 @@ const navItems = [
     pathName: "/skills",
   },
   {
-    id: 3,
+    id: 4,
     itemName: "Work",
     icon: "fas fa-images",
     pathName: "/work",
@@ -46,10 +46,10 @@ const Navigation = () => {
 
   return (
     <>
-      <NavButton navClick={handleClick} hideNavButton={showNav} />
+      <NavButton handleClick={handleClick} hideNavButton={showNav} />
       <div className={showNav ? `showNavigationBox` : `hideNavigationBox`}>
-        <div className='close' onClick={handleClick}></div>
-        <div className='nav-items'>{navItem}</div>
+        <div className="close" onClick={handleClick}></div>
+        <div className="nav-items">{navItem}</div>
       </div>
     </>
   );
