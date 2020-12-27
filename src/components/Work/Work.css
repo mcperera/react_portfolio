@@ -24,7 +24,7 @@
   font-size: clamp(15px, 1.3vw, 3vw);
 }
 
-img {
+.work-box img {
   margin-top: 10%;
   width: 250px;
 }
