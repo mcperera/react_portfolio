@@ -1,4 +1,5 @@
 .work-box {
+  place-items: center;
   color: white;
   margin: auto;
   padding: 7% 10% 1% 10%;
@@ -26,5 +27,17 @@
 
 .work-box img {
   margin-top: 10%;
-  width: 250px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .work-box {
+    padding-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .work-box {
+    padding-top: 30%;
+  }
 }

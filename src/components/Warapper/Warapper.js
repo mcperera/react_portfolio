@@ -4,12 +4,12 @@ import "./Warapper.css";
 
 import Particles from "react-particles-js";
 
-export default function Warappe({ children }) {
+export default function Warapper({ children }) {
   return (
     <>
-      <div className='warapper'>
+      <div className="warapper">
         <Particles
-          className='particles'
+          className="particles"
           params={{
             particles: {
               number: {
