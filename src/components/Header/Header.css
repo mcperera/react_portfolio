@@ -46,10 +46,15 @@
   }
 }
 
-.header h1 {
-  font-size: 4vw;
+.header-says h2 {
   margin: 15px 0px;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
+}
+
+.name {
+  font-size: 5vw;
+  margin: 25px 0px;
+  font-family: "Tangerine", cursive;
 }
 
 .header-says p {
@@ -78,9 +83,10 @@
     padding: 45% 10% 2% 15%;
   }
 
-  .header h1 {
+  /* .header h1 {
     font-size: 7vw;
-  }
+  } */
+
   .header-says {
     margin: 20px 0;
   }
@@ -102,12 +108,15 @@
 @media only screen and (max-width: 450px) {
   .header {
     text-align: center;
-    padding: 45% 10% 2% 10%;
+    padding: 40% 10% 2% 10%;
   }
 
-  .header h1 {
-    font-size: 8vw;
+  .name {
+    font-size: 12vw;
+    margin: 25px 0px;
+    font-family: "Tangerine", cursive;
   }
+
   .header-says {
     margin: 20px 0;
   }

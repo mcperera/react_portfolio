@@ -1,0 +1,72 @@
+.heading {
+  position: relative;
+}
+
+.page-heading {
+  margin: 0px 10px;
+  padding: 0;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: clamp(35px, 5vw, 3vw);
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+
+  /* left: 70%; */
+  right: 10%;
+  top: 50%;
+  bottom: 0;
+
+  height: 1px;
+  width: 200px;
+  background-color: rgba(94, 91, 255, 0.5);
+}
+
+.heading::before {
+  content: "";
+  position: absolute;
+
+  left: 10%;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+
+  height: 1px;
+  width: 200px;
+  background-color: rgba(94, 91, 255, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 450px) {
+  .heading::after {
+    content: "";
+    position: absolute;
+
+    /* left: 70%; */
+    right: 2%;
+    top: 50%;
+    bottom: 0;
+
+    height: 1px;
+    width: 10vw;
+    background-color: transparent;
+  }
+
+  .heading::before {
+    content: "";
+    position: absolute;
+
+    left: 2%;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+
+    height: 1px;
+    width: 10vw;
+    background-color: transparent;
+  }
+}
