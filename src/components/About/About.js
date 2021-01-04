@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import MainTitle from "../MainTitle/MainTitle";
+
 import "./About.css";
 // import profilePic from "../../assets/profilePicture/Me.jpg";
 const url = "https://api.github.com/users/mcperera";
@@ -22,10 +24,10 @@ const About = () => {
   const Loading = () => <p>Loading...</p>;
 
   return (
-    <div className='about-Box'>
-      <div className='about-warapper'>
-        <h1 className='page-heading'>About Me.</h1>
-        <div className='text-content'>
+    <div className="about-Box">
+      <div className="about-warapper">
+        <MainTitle>About Me.</MainTitle>
+        <div className="text-content">
           <p>
             Hello! I'm Madushan, a software engineer based in Colombo, Sri
             Lanka.
@@ -37,26 +39,24 @@ const About = () => {
           <p>
             Shortly after graduating from{" "}
             <a
-              href='https://www.cardiffmet.ac.uk/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
+              href="https://www.cardiffmet.ac.uk/"
+              target="_blank"
+              rel="noopener noreferrer">
               Cardiff Metropolitan University
             </a>
             , I joined the engineering team at{" "}
             <a
-              href='https://www.ifs.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
+              href="https://www.ifs.com/"
+              target="_blank"
+              rel="noopener noreferrer">
               IFS R&D International (PVT) Ltd
             </a>
             , where I work on a wide variety of interesting and meaningful
             projects on a daily basis.
           </p>
         </div>
-        <div className='img-box'>
-          {isLoading ? <Loading /> : <img src={getImg} alt='Madushan-Perera' />}
+        <div className="img-box">
+          {isLoading ? <Loading /> : <img src={getImg} alt="Madushan-Perera" />}
         </div>
       </div>
     </div>

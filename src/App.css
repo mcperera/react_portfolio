@@ -45,14 +45,6 @@ body {
   color: white;
 }
 
-.page-heading {
-  margin: 0px 10px;
-  padding: 0;
-  color: white;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: clamp(35px, 5vw, 3vw);
-}
-
 /* svg {
   height: 2em;
   width: 2em;
