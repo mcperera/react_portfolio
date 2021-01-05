@@ -3,12 +3,25 @@ import React from "react";
 import MainTitle from "./../MainTitle/MainTitle";
 import ShowCase from "./ShowCase/ShowCase";
 
+import portfolio from "../../assets/portfolio/portfolio.png";
 import spotify from "../../assets/portfolio/spotify-react.png";
 import books from "../../assets/portfolio/books.jpg";
 
 import "./Work.css";
 
 const projects = [
+  {
+    img: portfolio,
+    title: "Personal Portfolio",
+    desc: (
+      <p>
+        This portfolio site is developed by using React.js. <br /> It's to
+        improve my skills and share what I developed with you.
+      </p>
+    ),
+    //gitUrl: "https://github.com/mcperera/spotify-clone-react",
+    webUrl: "https://mcperera.com/",
+  },
   {
     img: spotify,
     title: "Spotify Clone",
