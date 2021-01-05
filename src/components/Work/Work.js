@@ -23,7 +23,7 @@ const projects = [
   },
   {
     img: books,
-    title: "Manager Books",
+    title: "Manage Books",
     desc: (
       <p>
         Complete CRUD operation using MERN stack. Use git link to find back-end
