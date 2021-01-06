@@ -6,6 +6,7 @@ import ShowCase from "./ShowCase/ShowCase";
 import portfolio from "../../assets/portfolio/portfolio.png";
 import spotify from "../../assets/portfolio/spotify-react.png";
 import books from "../../assets/portfolio/books.jpg";
+import rsvp from "../../assets/portfolio/rsvp.png";
 
 import "./Work.css";
 
@@ -47,8 +48,19 @@ const projects = [
     webUrl: "https://book-manager-mc.netlify.app/",
   },
   {
-    title: "Coming Soon..",
+    img: rsvp,
+    title: "RSVP",
+    desc: (
+      <p>
+        Application for list invite people, view overall invitees and attendance
+      </p>
+    ),
+    gitUrl: "https://github.com/mcperera/react-rsvp",
+    webUrl: "https://rsvp-react-mc.netlify.app/",
   },
+  // {
+  //   title: "Coming Soon..",
+  // },
 ];
 
 function Work() {
