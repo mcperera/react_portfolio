@@ -46,10 +46,6 @@ const projects = [
     gitUrl: "https://github.com/mcperera/mern-crud-frontend",
     webUrl: "https://book-manager-mc.netlify.app/",
   },
-  // {
-  //   title: "Working on it..",
-  //   desc: <p>E-Commerce Application</p>,
-  // },
   {
     title: "Coming Soon..",
   },
