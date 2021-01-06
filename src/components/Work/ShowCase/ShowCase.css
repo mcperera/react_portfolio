@@ -14,6 +14,9 @@
   background-size: cover;
 
   /* min-height and min-width */
+  min-height: 45vh;
+  min-width: 18vw;
+
   margin: 20px;
 
   border: 1px solid rgb(27, 25, 117);
