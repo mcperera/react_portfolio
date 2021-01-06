@@ -48,7 +48,7 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
   .work-box {
     position: relative;
     overflow-y: auto;
