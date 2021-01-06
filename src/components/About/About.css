@@ -4,6 +4,7 @@
   padding: 7% 10% 1% 10%;
   text-align: center;
   z-index: 1;
+
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */

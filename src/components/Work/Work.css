@@ -31,17 +31,13 @@
 }
 
 .showCase-container {
-  /* border: 1px solid white; */
-
-  position: relative;
-
   display: flex;
   justify-content: center;
-  align-items: center;
 
-  height: 55vh;
-  margin-top: 40px;
-  padding: 20px 10px;
+  height: max-content;
+  width: 100%;
+
+  margin: 40px auto 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,17 +51,15 @@
     position: relative;
     overflow-y: auto;
 
-    height: calc(100vh - 80px);
-
+    /* height: calc(100vh - 80px); */
     padding-top: 10%;
   }
-  .showCase-container {
-    overflow-y: auto;
-    flex-direction: column;
 
-    height: calc(100vh - 80px);
+  .showCase-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     margin-top: 35px;
-    padding: 100px 10px 10px 10px;
   }
 }
