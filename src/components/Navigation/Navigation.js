@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import NavButton from "./NavButton/NavButton";
 import NavItem from "./NavItems/NavItem";
@@ -34,11 +34,23 @@ const navItems = [
 
 const Navigation = () => {
   const [showNav, setShowNav] = useState(false);
+  const [currentWidth, setCurrentWidth] = useState(window.screen.width);
+
   const handleClick = () => {
     setShowNav((preState) => {
       return !preState;
     });
   };
+
+  const checkCurrentWidth = () => {
+    const width = window.screen.width;
+    setCurrentWidth(width);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", checkCurrentWidth);
+    return () => window.removeEventListener("resize", checkCurrentWidth);
+  }, []);
 
   const navItem = navItems.map((item) => {
     return <NavItem key={item.id} pathName={item.pathName} icon={item.icon} />;
@@ -46,9 +58,18 @@ const Navigation = () => {
 
   return (
     <>
-      <NavButton handleClick={handleClick} hideNavButton={showNav} />
-      <div className={showNav ? `showNavigationBox` : `hideNavigationBox`}>
-        <div className="close" onClick={handleClick}></div>
+      <NavButton
+        handleClick={handleClick}
+        hideNavButton={showNav}
+        setShowNav={setShowNav}
+      />
+      <div
+        className={showNav ? `showNavigationBox` : `hideNavigationBox`}
+        onMouseLeave={() => setShowNav(false)}
+        onMouseEnter={() => setShowNav(true)}>
+        {currentWidth <= 600 ? (
+          <div className="close" onClick={handleClick}></div>
+        ) : null}
         <div className="nav-items">{navItem}</div>
       </div>
     </>

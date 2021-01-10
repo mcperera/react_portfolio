@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./NavButton.css";
 import logo from "../../../assets/logo/m512.png";
 
-const NavButton = ({ handleClick, hideNavButton }) => {
+const NavButton = ({ hideNavButton, setShowNav }) => {
   const [showLogo, setShowLogo] = useState(true);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const NavButton = ({ handleClick, hideNavButton }) => {
   return (
     <div
       className={hideNavButton ? `hide-nav-button` : `show-nav-button`}
-      onClick={handleClick}>
+      onMouseEnter={() => setShowNav(true)}>
       {showLogo ? (
         <img src={logo} alt="M-logo" className="logo" />
       ) : (
