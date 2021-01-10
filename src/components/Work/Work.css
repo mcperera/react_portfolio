@@ -31,37 +31,14 @@
 }
 
 .showCase-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
   justify-content: center;
+  align-items: center;
 
-  height: max-content;
-  width: 100%;
-
-  margin: 40px auto 0 auto;
-
-  /* overflow: auto; */
-}
-
-@media only screen and (max-width: 600px) {
-  .work-box {
-    padding-top: 30%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .work-box {
-    position: relative;
-    overflow-y: auto;
-
-    /* height: calc(100vh - 80px); */
-    padding-top: 10%;
-  }
-
-  .showCase-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    margin-top: 35px;
-  }
+  margin: 10vh auto 0 auto;
 }
