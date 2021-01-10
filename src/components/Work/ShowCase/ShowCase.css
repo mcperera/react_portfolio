@@ -112,7 +112,7 @@
 
 @media only screen and (max-width: 450px) {
   .showCase {
-    height: 45vh;
+    height: 40vh;
     width: 75vw;
   }
   .desc-with-links > p {
