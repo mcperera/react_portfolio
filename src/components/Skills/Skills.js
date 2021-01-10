@@ -56,7 +56,7 @@ const listOfSkills = [
     percentage: "56",
   },
   {
-    id: "8",
+    id: "9",
     skillName: "Socket io",
     percentage: "56",
   },
