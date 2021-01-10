@@ -1,23 +1,23 @@
 .showCase {
   position: relative;
-  /* display: inline-block; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   height: 45vh;
-  width: 18vw;
+  width: 100%;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   /* min-height and min-width */
-  min-height: 45vh;
-  min-width: 18vw;
+  /* min-height: 45vh;
+  min-width: 18vw; */
 
-  margin: 20px;
+  align-self: center;
+  justify-self: center;
 
   border: 1px solid rgb(27, 25, 117);
   box-shadow: 0px 0px 150px rgba(73, 70, 114, 0.6);
@@ -38,8 +38,6 @@
   border: 1px solid rgba(11, 10, 70, 0.8);
   box-shadow: 0 0 3px rgb(121, 120, 218);
 
-  height: 47vh;
-  width: 20vw;
   /* transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg); */
@@ -107,34 +105,16 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .showCase {
-    height: 45vh;
-    width: 75vw;
-  }
-
-  .showCase:hover {
-    border: 1px solid rgba(11, 10, 70, 0.8);
-    box-shadow: 0 0 3px rgb(121, 120, 218);
-
-    height: 47vh;
-    width: 75vw;
-  }
-
   .desc-with-links > p {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .showCase {
-    width: 70vw;
-  }
-
-  .showCase:hover {
-    height: 47vh;
+    height: 45vh;
     width: 75vw;
   }
-
   .desc-with-links > p {
     font-size: 4vw;
   }
