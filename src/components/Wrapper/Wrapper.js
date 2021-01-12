@@ -1,19 +1,19 @@
 import React from "react";
 
-import "./Warapper.css";
+import "./Wrapper.css";
 
 import Particles from "react-particles-js";
 
-export default function Warapper({ children }) {
+export default function Wrapper({ children }) {
   return (
     <>
-      <div className="warapper">
+      <div className="wrapper">
         <Particles
           className="particles"
           params={{
             particles: {
               number: {
-                value: 150,
+                value: 100,
                 density: {
                   enable: false,
                 },
@@ -64,6 +64,30 @@ export default function Warapper({ children }) {
         />
         {children}
       </div>
+      {/* <div className="wrapper">
+        <Particles
+          className="particles"
+          params={{
+            particles: {
+              number: {
+                value: 50,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+              },
+            },
+          }}
+        />
+        {children}
+      </div> */}
     </>
   );
 }
