@@ -7,9 +7,8 @@ const ContactMe = () => {
     <>
       <a
         href={"mailto: madushanperera3817@gmail.com"}
-        className='btn-container'
-      >
-        Contact Me
+        className="btn-container">
+        Get In Touch
       </a>
     </>
   );
